@@ -1,0 +1,29 @@
+
+
+body {
+    background-color: #e0e1dd;
+    text-align: center;
+  }
+#Title {
+    color: #0d1b2a;
+    font-weight: 622;
+    font-size: 200%;
+    font-family: 'Inter', sans-serif;
+}
+p {
+  color: #0d1b2a;
+  font-weight: 400;
+  font-size: medium;
+  font-family: 'Inter', sans-serif;
+  text-overflow: ellipsis;
+
+}
+button {
+  color: #0d1b2a;
+  font-weight: 500;
+  font-size: medium;
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+
+}
