@@ -8,6 +8,13 @@ p {
   font-family: 'Inter', sans-serif;
     
 }
+li {
+  color: #e0e1dd;
+  font-weight: 622;
+  font-size: 3vw;
+  font-family: 'Inter', sans-serif;
+      
+}
 button {
   size: 10vw;
   color: #0d1b2a;
@@ -18,16 +25,23 @@ button {
   border-radius: 5px;
 
 }
+a {
+  color: #778da9;
+}
 .Title {
   font-weight: 622;
-  font-size: 14vw;
+  font-size: 12vw;
 }
 .HeaderText {
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: bold;
 }
 .CoreCompetencies {
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: bold;
   font-style: italic;
+}
+.Project {
+  background-color: #0d1b2a;
+  text-align: center;
 }

@@ -12,7 +12,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-3,622;0,400&display=swap" rel="stylesheet">
     </head>
-    <body>
+    
+    <body id="MyProjects">
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="script.js" async defer></script>
@@ -22,6 +23,32 @@
             <button onclick="changepage('AboutMe.html')">About me</button>
             <button onclick="changepage('ContactMe.html')">Contact me</button>
             <button onclick="changepage('index.html')">Home</button>
+        </div>
+        <div id="Projects">
+            <p>
+                I compiled all project i ever worked on at this page, press the button to 
+                read about a random project i worked on:
+            </p>
+            
+            <button id="RandomProjectButton" onclick="LoadProject()">Random Project</button>
+
+            <div class="Project" id="project1">
+                
+                <p>Hi</p>
+
+            </div>
+            
+            <div class="Project" id="project2">
+                
+                <p>Hi1</p>
+
+            </div>
+            
+            <div class="Project" id="project3">
+                
+                <p>Hi2</p>
+
+            </div>
         </div>
 
     </body>
